@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+  }
+  
+  .topbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: red; 
+    font-size: 2em;
+  
+  
+  }
+  .company {
+    color: white;
+    font-family: Helvetica; sans-serif;
+    font-weight: 300;
+  
+  }
+  
+  .btn {
+  background-color: gray;
+  margin: 15px; 
+  }
+  
+  .line {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 5px;
+  
+  }
