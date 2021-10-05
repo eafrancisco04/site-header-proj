@@ -13,9 +13,7 @@
 .btn {
     display: flex;
     flex-direction: column;
-    width: 40px;
-    height: 40px;
-    align-items: center;
+    justify-content: center;
 }
 .line {
     background-color: black;
@@ -33,6 +31,7 @@
 }
 .company {
     color: white;
+    align-self: center;
 }
 body {
     background-color: rgb(165, 162, 162);
