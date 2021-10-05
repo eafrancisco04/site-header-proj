@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    background-color: gray;
 }
 
 .topbar {
@@ -19,17 +18,22 @@
     align-items: center;
 }
 .line {
-    background-color: gray;
+    background-color: black;
     display: flex;
     flex-direction: column;
-    width: 25px;
-    height: 3px;
+    width: 30px;
+    height: 5px;
     margin: 3px;
 }
 .logo {
     background-color: red;
     border-radius: 50px;
-    display: block;
     padding: 10px;
     font-size: 1.5em;
+}
+.company {
+    color: white;
+}
+body {
+    background-color: rgb(165, 162, 162);
 }
